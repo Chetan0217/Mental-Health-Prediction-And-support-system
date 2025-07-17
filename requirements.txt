@@ -1,0 +1,23 @@
+This file lists all the Python packages required to run the
+Mental Health Prediction System project.
+To install all of these dependencies at once, run the following
+command in your terminal from the project directory:
+pip install -r requirements.txt
+Core Data Science & ML Libraries
+pandas
+numpy
+scikit-learn==1.3.2  # Pinning this version is important for model compatibility
+xgboost
+
+Streamlit for the Web App
+streamlit
+
+NLP & Text Processing Libraries
+nltk
+spacy==3.7.2        # Pinning this version ensures the language model works
+emoji
+contractions
+tqdm                # For the progress bars
+
+Model Saving/Loading
+joblib
